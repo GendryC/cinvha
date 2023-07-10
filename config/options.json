@@ -1,0 +1,31 @@
+{
+    "database": {
+        "state": "on",
+        "options": {
+            "port": 5432,
+            "dialect": "postgres",
+            "host": "localhost",
+            "pool": {
+                "acquire": 60000,
+                "max": 20,
+                "min": 0,
+                "idle": 10000
+            }
+        },
+        "api": true,
+        "password": "2247",
+        "user": "postgres",
+        "name": "incidencias"
+    },
+    "port": 4440,
+    "socketio": {
+        "active": true
+    },
+    "language": {
+        "default": "es",
+        "usePrefered": false,
+        "cookieName": "RaptorJSLang"
+    },
+    "secret": "3dfa5h2g$ae946e2gdi5cb%g*1#$5e25",
+    "proyectName": "CinvHa"
+}
